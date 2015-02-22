@@ -1,0 +1,10 @@
+# Site settings
+title: Nyanyanyanya
+email: 452027381@qq.com
+description: This is a website which is used as our guild's page. Enjoy!
+url: "http://nyanyanyanya.github.io"
+github_username:  nyanyanyanya
+
+# Build settings
+markdown: kramdown
+highlighter: rouge

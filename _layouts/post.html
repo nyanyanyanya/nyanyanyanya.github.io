@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="post">
+
+  <img id="head" src="/img/head.png" />
+
+  <header class="post-header">
+	<p class="post-title">{{ page.title }}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} â˘ {{ page.author }}{% endif %}{% if page.meta %} â˘ {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+    {% if page.image %}
+      <img class="post-image" src="{{page.image}}" />
+    {% endif %}
+  </article>
+
+  <footer class="site-footer">
+    <p>
+      Powered by
+      <a href="http://jekyllrb.com">Jekyll</a>
+       with Tio
+    </p>
+  </footer>
+
+</div>

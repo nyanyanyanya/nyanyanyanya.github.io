@@ -1,2 +1,2 @@
 # nyanyanyanya.github.io
-This is a website used for posting the pictures I draw. Nya~
+This is a website used for Chamecat's Antique Shop. Nya~

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <img id="head" src="/img/head.png" />
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-div">
+        <span class="post-meta">{{ post.date | date: "%b %-d<br>%Y" }}</span>
+
+        <span class="post-name">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </span>
+
+        <span class="post-abstract">{{ post.abstract }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <footer class="site-footer">
+    <p>
+      Powered by
+      <a href="http://jekyllrb.com">Jekyll</a>
+       with Tio
+    </p>
+  </footer>
+
+</div>
